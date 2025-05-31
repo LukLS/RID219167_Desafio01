@@ -1,16 +1,18 @@
 .contato {
     display: flex;
-    flex-direction: column; /* empilha os itens */
-    align-items: center; /* centraliza horizontalmente */
+    flex-direction: column;
+    align-items: center;
     padding: 90px 9px;
-    gap: 40px; /* espaço entre os itens */
+    gap: 20px;
     background-color: #303030;
 }
 
+
 .contato h1 {
     color: white;
-    text-align: center; /* centraliza texto dentro do h1 */
+    text-align: center; 
     font-size: 1.5rem;
+    margin-bottom: 15px;
 }
 
 .contato input {
@@ -21,18 +23,25 @@
 }
 
 input::placeholder {
-  color: rgba(0, 0, 0, 0.3); /* preto com 70% de transparência */
+  color: rgba(0, 0, 0, 0.3); 
+}
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .contato button {
-    margin-top: 15px;
     background-color: #C07212;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    width: 170px; /* aumenta a largura */
-    height: 50px; /* aumenta a altura */
+    padding: 10px 20px;
     font-size: 1rem;
+    border: none;
+    color: white;
     cursor: pointer;
-    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.contato button:hover {
+    transform: translateY(-10px);
 }

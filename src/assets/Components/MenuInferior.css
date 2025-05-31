@@ -1,9 +1,9 @@
 .inferior {
-    display: flex; /* coloca texto e imagem lado a lado */
-    align-items: center; /* centraliza verticalmente */
-    justify-content: space-between; /* separa os dois */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
     padding: 20px 50px;
-    gap: 40px; /* aumenta ou diminui o espaço entre texto e imagem */
+    gap: 40px;
 }
 
 .texto h1 {
@@ -12,7 +12,7 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    margin-bottom: 10px; /* Aproxima do h2 */
+    margin-bottom: 10px;
 }
 
 .texto h2 {
@@ -22,7 +22,7 @@
     width: 600px;
     word-wrap: break-word;
     font-weight: normal;
-    margin-top: 0; /* remove espaçamento extra */
+    margin-top: 0; 
 }
 
 .inferior img {
