@@ -1,0 +1,38 @@
+.contato {
+    display: flex;
+    flex-direction: column; /* empilha os itens */
+    align-items: center; /* centraliza horizontalmente */
+    padding: 90px 9px;
+    gap: 40px; /* espaço entre os itens */
+    background-color: #303030;
+}
+
+.contato h1 {
+    color: white;
+    text-align: center; /* centraliza texto dentro do h1 */
+    font-size: 1.5rem;
+}
+
+.contato input {
+    padding: 15px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.3); /* preto com 70% de transparência */
+}
+
+.contato button {
+    margin-top: 15px;
+    background-color: #C07212;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 170px; /* aumenta a largura */
+    height: 50px; /* aumenta a altura */
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
